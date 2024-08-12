@@ -1,10 +1,9 @@
 config {
   type: "table",
   schema: "Aniket_Mydataset",
-  name: "student_table"
+  name: "student_table2"
 }
-
-CREATE OR REPLACE TABLE Aniket_Mydataset.student_table AS (
+CREATE OR REPLACE TABLE Aniket_Mydataset.student_table2 AS (
   SELECT
     1 AS id, 'John' AS first_name, 'Doe' AS last_name, 85 AS mark, 'B' AS grade
   UNION ALL
