@@ -7,10 +7,10 @@ config {
     1 AS id, 'John' AS first_name, 'Doe' AS last_name, 85 AS mark, 'B' AS grade
   UNION ALL
   SELECT
-   2 AS id, 'Jane' AS first_name, 'Doe' AS last_name, 92 AS mark, 'A' AS grade
+   1 AS id, 'Jane' AS first_name, 'Doe' AS last_name, 92 AS mark, 'A' AS grade
   UNION ALL
   SELECT
-   3 AS id, 'Alice' AS first_name, 'Smith' AS last_name, 78 AS mark, 'C' AS grade
+   1 AS id, 'Alice' AS first_name, 'Smith' AS last_name, 78 AS mark, 'C' AS grade
   UNION ALL
   SELECT
   4 AS id, 'Bob' AS first_name, 'Brown' AS last_name, 88 AS mark, 'B' AS grade
