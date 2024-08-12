@@ -6,6 +6,6 @@ config {
 SELECT
   id
 FROM
-   ${ref("student_table2")}
+   ${ref("student_table3")}
 GROUP by id 
 having count(id)>1 or id <= 0

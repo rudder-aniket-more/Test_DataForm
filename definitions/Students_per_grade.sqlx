@@ -6,7 +6,7 @@ CREATE OR REPLACE TABLE Aniket_Mydataset.Students_per_grade AS (
   grade,
   COUNT(id) AS student_count
 FROM
-  ${ref("student_table2")}
+  ${ref("student_table3")}
 GROUP BY
   grade
 )
