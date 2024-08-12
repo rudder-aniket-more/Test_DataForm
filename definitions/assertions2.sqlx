@@ -1,0 +1,13 @@
+config {
+  type: "assertion",
+  schema: "Aniket_Mydataset",
+  name: "assert_id_positive"
+}
+
+-- Assertion 2: Check if `id` is greater than 0
+SELECT
+  id
+FROM
+  Aniket_Mydataset.student_table
+GROUP by id 
+having count(id)>1 or id <= 0
