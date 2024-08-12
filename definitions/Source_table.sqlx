@@ -1,0 +1,37 @@
+config {
+  type: "table",
+  schema: "Dataform",
+  name: "student_table"
+}
+
+CREATE OR REPLACE TABLE your_schema_name.student_table AS (
+  SELECT
+    1 AS id, 'John' AS first_name, 'Doe' AS last_name, 85 AS mark, 'B' AS grade
+  UNION ALL
+  SELECT
+    2 AS id, 'Jane' AS first_name, 'Doe' AS last_name, 92 AS mark, 'A' AS grade
+  UNION ALL
+  SELECT
+    3 AS id, 'Alice' AS first_name, 'Smith' AS last_name, 78 AS mark, 'C' AS grade
+  UNION ALL
+  SELECT
+    4 AS id, 'Bob' AS first_name, 'Brown' AS last_name, 88 AS mark, 'B' AS grade
+  UNION ALL
+  SELECT
+    5 AS id, 'Eve' AS first_name, 'Davis' AS last_name, 95 AS mark, 'A' AS grade
+  UNION ALL
+  SELECT
+    6 AS id, 'Charlie' AS first_name, 'White' AS last_name, 60 AS mark, 'D' AS grade
+  UNION ALL
+  SELECT
+    7 AS id, 'David' AS first_name, 'Black' AS last_name, 73 AS mark, 'C' AS grade
+  UNION ALL
+  SELECT
+    8 AS id, 'Frank' AS first_name, 'Green' AS last_name, 82 AS mark, 'B' AS grade
+  UNION ALL
+  SELECT
+    9 AS id, 'Grace' AS first_name, 'Yellow' AS last_name, 90 AS mark, 'A' AS grade
+  UNION ALL
+  SELECT
+    10 AS id, 'Hank' AS first_name, 'Blue' AS last_name, 65 AS mark, 'D' AS grade
+)
