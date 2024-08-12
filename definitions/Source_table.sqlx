@@ -8,13 +8,13 @@ CREATE OR REPLACE TABLE Aniket_Mydataset.student_table2 AS (
     1 AS id, 'John' AS first_name, 'Doe' AS last_name, 85 AS mark, 'B' AS grade
   UNION ALL
   SELECT
-   1 AS id, 'Jane' AS first_name, 'Doe' AS last_name, 92 AS mark, 'A' AS grade
+   2 AS id, 'Jane' AS first_name, 'Doe' AS last_name, 92 AS mark, 'A' AS grade
   UNION ALL
   SELECT
-   0 AS id, 'Alice' AS first_name, 'Smith' AS last_name, 78 AS mark, 'C' AS grade
+   3 AS id, 'Alice' AS first_name, 'Smith' AS last_name, 78 AS mark, 'C' AS grade
   UNION ALL
   SELECT
-  0 AS id, 'Bob' AS first_name, 'Brown' AS last_name, 88 AS mark, 'B' AS grade
+  4 AS id, 'Bob' AS first_name, 'Brown' AS last_name, 88 AS mark, 'B' AS grade
   UNION ALL
   SELECT
     5 AS id, 'Eve' AS first_name, 'Davis' AS last_name, 95 AS mark, 'A' AS grade
