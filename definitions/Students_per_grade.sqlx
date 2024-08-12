@@ -1,7 +1,6 @@
 config {
   type: "table",
 }
-CREATE OR REPLACE TABLE Aniket_Mydataset.Students_per_grade AS (
   SELECT
   grade,
   COUNT(id) AS student_count
@@ -9,4 +8,3 @@ FROM
   ${ref("student_table3")}
 GROUP BY
   grade
-)
