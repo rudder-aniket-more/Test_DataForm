@@ -1,6 +1,5 @@
 config {
   type: "table",
-  schema: "Aniket_Mydataset",
   name: "student_table3"
 }
 CREATE OR REPLACE TABLE Aniket_Mydataset.student_table3 AS (
