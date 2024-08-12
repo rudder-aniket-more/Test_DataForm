@@ -1,14 +1,12 @@
 config {
   type: "table",
-  schema: "Aniket_Mydataset",
-  name: "Students_per_grade"
 }
 CREATE OR REPLACE TABLE Aniket_Mydataset.Students_per_grade AS (
   SELECT
   grade,
   COUNT(id) AS student_count
 FROM
-  Aniket_Mydataset.student_table
+  ${ref("student_table2")}
 GROUP BY
   grade
 )
